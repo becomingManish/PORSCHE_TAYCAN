@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+main{
+    padding: 30px 50px;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    height: 70px;
+    width: 70px;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+}
+.links{
+    display: flex;
+    gap: 60px;
+    font-weight: 700;
+}
+button{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+section {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 310px;
+    /* margin-top: -30px; */
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(147, 140, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+.car-div{
+    height: 95%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.car-div img{
+    height: 185%;
+    width: 90%;
+    margin-top: -60px;
+    margin-left: 5px;
+}
+footer{
+    display: flex;
+    margin-top: 15%;
+ justify-content: space-between;
+ align-items: center;
+}
+.mid{
+    display: flex;
+   gap: 60px;
+}
+.mid p{
+    font-size: 15px;
+    color: gray;
+}
+#porsche{
+    /* font-size: 18px; */
+    font-weight: 500;
+}
+#model{
+    font-size: 25px;
+    /* font-weight: */
+    color: gray;
+}
+.imgdiv{
+    display: flex;
+    gap: 10px;
+}
+.imgbox{
+    height: 70px;
+    width: 120px;
+    background-color: navy;
+}
+.imgbox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
